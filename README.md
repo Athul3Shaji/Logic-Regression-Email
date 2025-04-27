@@ -3,6 +3,8 @@ Using Logic regression model find the email Safe or Phishing
 
 
 📧 Email Phishing Detection API
+
+
 A high-performance Email Safety Detection API built with FastAPI, Logic Regression, and Redis!
 Quickly analyze email content and determine if it’s Safe or Phishing in real-time.
 
@@ -45,6 +47,7 @@ If not found → Use Logic Regression Model to predict and store the result in R
 ❌ Phishing
 
 🛠️ Setup Instructions
+
 1. Clone the repository
 
 git clone https://github.com/your-username/email-phishing-detection-api.git
@@ -59,6 +62,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install Dependencies
 
 pip install -r requirements.txt
+
 4. Start Redis Server
 Make sure Redis is installed and running locally:
 redis-server
@@ -79,6 +83,7 @@ POST	/predict	Predict if an email is Safe or Phishing
 Example Request
 
 POST /predict_email
+
 Content-Type: application/json
 
 {
